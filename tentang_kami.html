@@ -1,0 +1,197 @@
+<!doctype html>
+<html lang="id">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <!--=============== REMIXICONS ===============-->
+  <link rel="stylesheet" href="assets/css/remixicon.css" />
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet" />
+  <!--=============== JQUERY ===============-->
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  
+  <!--=============== CSS sweetalert ===============-->
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.22.2/dist/sweetalert2.all.min.js"></script>
+  <link href="https://cdn.jsdelivr.net/npm/sweetalert2@11.22.2/dist/sweetalert2.min.css" rel="stylesheet">
+  <!--=============== CSS ===============-->
+  <link rel="stylesheet" href="assets/css/styles.css" />
+  <link rel="stylesheet" href="assets/css/scss.css" />
+  <link rel="stylesheet" href="assets/css/styleslide.css">
+  
+  <title>Tangan Kreatif</title>
+</head>
+
+<body>
+  <!--=============== HEADER ===============-->
+  <header class="header" id="header">
+    <div class="header__container">
+      <a href="index.html" class="header__logo">
+        <img src="assets/img/kun_nar.png" class="logo_png" />
+        <span>Tangan Kreatif</span>
+      </a>
+      <button class="header__toggle" id="header-toggle">
+        <i class="ri-menu-line" id="menuTog"></i>
+      </button>
+    </div>
+  </header>
+  
+  <!--=============== SIDEBAR ===============-->
+  <nav class="sidebar" id="sidebar">
+    <div class="sidebar__container">
+      <div class="sidebar__user">
+        <div class="sidebar__img">
+          <img src="assets/img/hasirama.png" />
+        </div>
+        
+        <div class="sidebar__info">
+          <h3>Ada Masukkan ?</h3>
+          <br />
+          <h5>Hub. Admin.</h5>
+          <span>Adm.kami99@gmail.com</span>
+        </div>
+      </div>
+      
+      <div class="sidebar__content">
+        <div>
+          <h3 class="sidebar__title">Menu</h3>
+          
+          <div class="sidebar__list">
+            <a href="index.html" class="sidebar__link">
+              <i class="ri-home-2-fill"></i>
+              <span>Beranda</span>
+            </a>
+            <a href="properti_kayu.html" class="sidebar__link">
+              <i class="ri-ancient-gate-fill"></i>
+              <span>Properti Kayu</span>
+            </a>
+            
+            <a href="#" class="sidebar__link">
+              <i class="ri-suitcase-2-fill"></i>
+              <span><s>Travel</s></span>
+            </a>
+            
+            <a href="galeri.html" class="sidebar__link">
+              <i class="ri-gallery-fill"></i>
+              <span>Galeri</span>
+            </a>
+            <a href="tentang_kami.html" class="sidebar__link active-link">
+              <i class="ri-map-pin-fill"></i>
+              <span>Tentang Kami</span>
+            </a>
+            <a href="sumbang.html" class="sidebar__link">
+              <i class="ri-drop-line"></i>
+              <span>Traktir Admin Kere</span>
+            </a>
+          </div>
+        </div>
+        
+        <div>
+          <h3 class="sidebar__title">Admin</h3>
+          
+          <div class="sidebar__list">
+            
+            <a href="#" class="sidebar__link">
+              <i class="ri-whatsapp-fill"></i>
+              <span>Whatsapp</span>
+            </a>
+            
+            <a href="#" class="sidebar__link">
+              <i class="ri-mail-ai-fill"></i>
+              <span>Gmail</span>
+            </a>
+            
+            <h3 class="sidebar__makasi">MAKASI :</h3>
+            <p class="makasiges">
+              <marquee>○div</marquee>
+              <marquee>■div</marquee>
+              <marquee>♡div</marquee>
+            </p>
+          </div>
+        </div>
+      </div>
+      
+      <div class="sidebar__actions">
+        <button>
+          <i class="ri-moon-clear-fill sidebar__link sidebar__theme" id="theme-button">
+            <span>Tema</span>
+          </i>
+        </button>
+        
+        <!--         <button class="sidebar__link">
+          <i class="ri-logout-box-r-fill"></i>
+          <span>Log Out</span>
+        </button> -->
+      </div>
+    </div>
+  </nav>
+  
+  <!--=============== MAIN ===============-->
+  <!-- BUSINES -->
+  <main class="main container" id="main">
+    <h1>Tentang Kami</h1>
+    <h2></h2>
+  </main>
+  <!-- slider -->
+  <div class="cont-tentang">
+    <div class="main-tentang">
+      <div class="judul">
+        <div class="judul-tentang">
+          <p><b>Nama</b></p>
+          <p><b>Lokasi</b></p>
+        </div>
+        <div class="titik-tentang">
+          <p><b>:</b></p>
+          <p><b>:</b></p>
+        </div>
+        <div class="titik-tentang">
+          <p><b>TANGAN KREATIF</b></p>
+          <p><b>NTB, LOBAR, Gunungsari, Taman sari, Limbungan Selatan.</b></p>
+        </div>
+      </div>
+      <div class="map-0">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15782.281641864402!2d116.1138333!3d-8.541018!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dcdc1b9d5364539%3A0xd7e939248e3b4dee!2sUD.TANGAN%20KREATIF!5e0!3m2!1sid!2sid!4v1754484718446!5m2!1sid!2sid"
+                                                                                                                                width="300"
+                                                                                                                                height="150"
+                                                                                                                                style="border:0;"
+                                                                                                                                allowfullscreen=""
+                                                                                                                                loading="lazy"
+                                                                                                                                referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+      <div class="">
+        <p>Tangan Kreatif sudah berdiri sejak lama dibidang Bisnis, sudah banyak melakukan pemasangan atau menuntaskan
+          orderan berupa Lumbung, Rumah Panggung, atau Gazebo(Berugak) baik diseluruh wilayah NTB dan NTT. Sehingga
+          masalah ke-Profesionalan tidak perlu ditanyakan lagi, tetapi baru-baru ini kami mengembangkan dalam bentuk
+          Website, tujuan terbentuknya website ini untuk memperluas kerja Bisnis kami serta memudahkan para pelanggan
+          kami untuk terhubung dengan
+          kami, dan agar customer kami bisa mengetahui kegiatan yang sudah kami lalui dalam pelaksanaan pengerjan
+          properti serta proses yang terjadi dilapangan.
+          <br />
+          Sekian Dari kami, semoga bisa difahami.
+        </p>
+      </div>
+      <br>
+      <div class="tentang-moto">
+        <h2>MOTTO</h2>
+        <p><b>Kepuasan Anda Adalah Prioritas.</b></p>
+        <br>
+        <h2>MOTIVASI</h2>
+        <p><b>ANAK ISTRI DI RUMAH</b></p>
+        <p>
+          Setiap tetes keringat, hanya untuk senyum Keluarga.
+        </p>
+      </div>
+    </div>
+  </div>
+  <!--   Alert About -->
+  
+  
+  <!--=============== MAIN JS ===============-->
+  <script src="assets/js/main.js"></script>
+  <script src="assets/js/main1.js"></script>
+  <script src="assets/js/srcIndex.js"></script>
+  <script src="assets/js/app.js"></script>
+  
+</body>
+
+</html>

@@ -1,0 +1,389 @@
+<!doctype html>
+<html lang="id">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <!--=============== REMIXICONS ===============-->
+  <link rel="stylesheet" href="assets/css/remixicon.css" />
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet" />
+  <!--=============== JQUERY ===============-->
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  
+  <!--=============== CSS sweetalert ===============-->
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.22.2/dist/sweetalert2.all.min.js"></script>
+  <link href="https://cdn.jsdelivr.net/npm/sweetalert2@11.22.2/dist/sweetalert2.min.css" rel="stylesheet">
+  <!--=============== CSS ===============-->
+  <link rel="stylesheet" href="assets/css/styles.css" />
+  <link rel="stylesheet" href="assets/css/scss.css" />
+  <link rel="stylesheet" href="assets/css/styleslide.css">
+  
+  <title>Tangan Kreatif</title>
+</head>
+
+<body>
+  <!--=============== HEADER ===============-->
+  <header class="header" id="header">
+    <div class="header__container">
+      <a href="index.html" class="header__logo">
+        <img src="assets/img/kun_nar.png" class="logo_png" />
+        <span class="head-span" data-text="Tangan-Kreatif">Tangan-Kreatif</span>
+      </a>
+      <button class="header__toggle" id="header-toggle">
+        <i class="ri-menu-line" id="menuTog"></i>
+      </button>
+    </div>
+  </header>
+  
+  <!--=============== SIDEBAR ===============-->
+  <nav class="sidebar" id="sidebar">
+    <div class="sidebar__container">
+      <div class="sidebar__user">
+        <div class="sidebar__img">
+          <img src="assets/img/hasirama.png" />
+        </div>
+        
+        <div class="sidebar__info">
+          <h3>Ada Masukkan ?</h3>
+          <br />
+          <h5>Hub. Admin.</h5>
+          <span>Adm.kami99@gmail.com</span>
+        </div>
+      </div>
+      
+      <div class="sidebar__content">
+        <div>
+          <h3 class="sidebar__title">Menu</h3>
+          
+          <div class="sidebar__list">
+            <a href="index.html" class="sidebar__link active-link">
+              <i class="ri-home-2-fill"></i>
+              <span>Beranda</span>
+            </a>
+            <a href="properti_kayu.html" class="sidebar__link">
+              <i class="ri-ancient-gate-fill"></i>
+              <span>Properti Kayu</span>
+            </a>
+            
+            <a href="#" class="sidebar__link">
+              <i class="ri-suitcase-2-fill"></i>
+              <span><s>Travel</s></span>
+            </a>
+            
+            <a href="galeri.html" class="sidebar__link">
+              <i class="ri-gallery-fill"></i>
+              <span>Galeri</span>
+            </a>
+            <a href="tentang_kami.html" class="sidebar__link">
+              <i class="ri-map-pin-fill"></i>
+              <span>Tentang Kami</span>
+            </a>
+            <a href="sumbang.html" class="sidebar__link">
+              <i class="ri-drop-line"></i>
+              <span>Traktir Admin Kere</span>
+            </a>
+          </div>
+        </div>
+        
+        <div>
+          <h3 class="sidebar__title">Admin</h3>
+          
+          <div class="sidebar__list">
+            
+            <a href="#" class="sidebar__link">
+              <i class="ri-whatsapp-fill"></i>
+              <span>Whatsapp</span>
+            </a>
+            
+            <a href="#" class="sidebar__link">
+              <i class="ri-mail-ai-fill"></i>
+              <span>Gmail</span>
+            </a>
+            
+            <h3 class="sidebar__makasi">MAKASI :</h3>
+            <p class="makasiges">
+              <marquee>○div</marquee>
+              <marquee>■div</marquee>
+              <marquee>♡div</marquee>
+            </p>
+          </div>
+        </div>
+      </div>
+      
+      <div class="sidebar__actions">
+        <button>
+          <i class="ri-moon-clear-fill sidebar__link sidebar__theme" id="theme-button">
+            <span>Tema</span>
+          </i>
+        </button>
+        
+        <!--         <button class="sidebar__link">
+          <i class="ri-logout-box-r-fill"></i>
+          <span>Log Out</span>
+        </button> -->
+      </div>
+    </div>
+  </nav>
+  
+  <!--=============== MAIN ===============-->
+  <!-- BUSINES -->
+  <main class="main container" id="main">
+    <h1>Beranda</h1>
+    <div class="judul-index">
+      <a style="color : inherit" href="properti_kayu.html">
+        <h2>Properti Kayu</h2>
+      </a>
+    </div>
+  </main>
+  <!-- slider -->
+  <div class="con-main">
+    <div class="slider">
+      <!-- list Items -->
+      <div class="list">
+        <div class="item active">
+          <img src="assets/img/propertikayu/index/img1.jpg">
+          <div class="content">
+            <p>design</p>
+            <h2>Slider 01</h2>
+            <p>
+              Tentang
+            </p>
+          </div>
+        </div>
+        <div class="item">
+          <img src="assets/img/propertikayu/index/img2.jpg">
+          <div class="content">
+            <p>design</p>
+            <h2>Slider 02</h2>
+            <p>
+              Tentang
+            </p>
+          </div>
+        </div>
+        <div class="item">
+          <img src="assets/img/propertikayu/index/img3.jpg">
+          <div class="content">
+            <p>design</p>
+            <h2>Slider 03</h2>
+            <p>
+              Tentang
+            </p>
+          </div>
+        </div>
+        <div class="item">
+          <img src="assets/img/propertikayu/index/img4.jpg">
+          <div class="content">
+            <p>design</p>
+            <h2>Slider 04</h2>
+            <p>
+              Tentang
+            </p>
+          </div>
+        </div>
+        <div class="item">
+          <img src="assets/img/propertikayu/index/img5.jpg">
+          <div class="content">
+            <p>design</p>
+            <h2>Slider 05</h2>
+            <p>
+              Tentang
+            </p>
+          </div>
+        </div>
+      </div>
+      <!-- button arrows -->
+      <div class="arrows">
+        <button id="prev">
+          &lt; </button>
+        <button id="next">
+          &gt;
+        </button>
+      </div>
+      <!-- thumbnail -->
+      <div class="thumbnail">
+        <div class="item active">
+          <img src="assets/img/propertikayu/index/img1.jpg">
+          <div class="content">
+            Name Slider
+          </div>
+        </div>
+        <div class="item">
+          <img src="assets/img/propertikayu/index/img2.jpg">
+          <div class="content">
+            Name Slider
+          </div>
+        </div>
+        <div class="item">
+          <img src="assets/img/propertikayu/index/img3.jpg">
+          <div class="content">
+            Name Slider
+          </div>
+        </div>
+        <div class="item">
+          <img src="assets/img/propertikayu/index/img4.jpg">
+          <div class="content">
+            Name Slider
+          </div>
+        </div>
+        <div class="item">
+          <img src="assets/img/propertikayu/index/img5.jpg">
+          <div class="content">
+            Name Slider
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- TRAVEL -->
+  <main class="main1 container" id="main1">
+    <div class="judul-index0">
+    <a style="color : inherit" href="#">
+      <h2>Travel</h2>
+    </a>
+    </div>
+  </main>
+  <!-- slider -->
+  <div class="con-main">
+    <div class="slider1">
+      <!-- list Items -->
+      <div class="list1">
+        <div class="item1 active">
+          <img src="assets/img/propertikayu/index/img1.jpg">
+          <div class="content1">
+            <p>design</p>
+            <h2>Slider 01</h2>
+            <p>
+              Tentang
+            </p>
+          </div>
+        </div>
+        <div class="item1">
+          <img src="assets/img/propertikayu/index/img2.jpg">
+          <div class="content1">
+            <p>design</p>
+            <h2>Slider 02</h2>
+            <p>
+              Tentang
+            </p>
+          </div>
+        </div>
+        <div class="item1">
+          <img src="assets/img/propertikayu/index/img3.jpg">
+          <div class="content1">
+            <p>design</p>
+            <h2>Slider 03</h2>
+            <p>
+              Tentang
+            </p>
+          </div>
+        </div>
+        <div class="item1">
+          <img src="assets/img/propertikayu/index/img4.jpg">
+          <div class="content1">
+            <p>design</p>
+            <h2>Slider 04</h2>
+            <p>
+              Tentang
+            </p>
+          </div>
+        </div>
+        <div class="item1">
+          <img src="assets/img/propertikayu/index/img5.jpg">
+          <div class="content1">
+            <p>design</p>
+            <h2>Slider 05</h2>
+            <p>
+              Tentang
+            </p>
+          </div>
+        </div>
+      </div>
+      <!-- button arrows -->
+      <div class="arrows1">
+        <button id="prev1">
+          &lt; </button>
+        <button id="next1">
+          &gt;
+        </button>
+      </div>
+      <!-- thumbnail -->
+      <div class="thumbnail1">
+        <div class="item1 active">
+          <img src="assets/img/propertikayu/index/img1.jpg">
+          <div class="content1">
+            Name Slider
+          </div>
+        </div>
+        <div class="item1">
+          <img src="assets/img/propertikayu/index/img2.jpg">
+          <div class="content1">
+            Name Slider
+          </div>
+        </div>
+        <div class="item1">
+          <img src="assets/img/propertikayu/index/img3.jpg">
+          <div class="content1">
+            Name Slider
+          </div>
+        </div>
+        <div class="item1">
+          <img src="assets/img/propertikayu/index/img4.jpg">
+          <div class="content1">
+            Name Slider
+          </div>
+        </div>
+        <div class="item1">
+          <img src="assets/img/propertikayu/index/img5.jpg">
+          <div class="content1">
+            Name Slider
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <main class="main1 container" id="main1">
+    <div class="judul-index0">
+    <h2>Selesai</h2>
+    </div>
+  </main>
+  <div class="banner">
+      <div class="slider0" style="--quantity: 10">
+        <div class="item" style="--position: 1"><img src="assets/img/selesai/img_1.jpg" alt=""></div>
+        <div class="item" style="--position: 2"><img src="assets/img/selesai/img_2.jpg" alt=""></div>
+        <div class="item" style="--position: 3"><img src="assets/img/selesai/img_3.jpg" alt=""></div>
+        <div class="item" style="--position: 4"><img src="assets/img/selesai/img_4.jpg" alt=""></div>
+        <div class="item" style="--position: 5"><img src="assets/img/selesai/img_5.jpg" alt=""></div>
+        <div class="item" style="--position: 6"><img src="assets/img/selesai/img_6.jpg" alt=""></div>
+        <div class="item" style="--position: 7"><img src="assets/img/selesai/img_7.jpg" alt=""></div>
+        <div class="item" style="--position: 8"><img src="assets/img/selesai/img_8.jpg" alt=""></div>
+        <div class="item" style="--position: 9"><img src="assets/img/selesai/img_9.jpg" alt=""></div>
+        <div class="item" style="--position: 10"><img src="assets/img/selesai/img_10.jpg" alt=""></div>
+      </div>
+      <div class="content">
+        <div class="author">
+          <h2>MOTTO</h2>
+          <p><b>Kepuasan Anda Adalah Prioritas.</b></p>
+          <br>
+          <h2>MOTIVASI</h2>
+          <p><b>ANAK ISTRI DI RUMAH</b></p>
+          <p>
+            Setiap tetes keringat, hanya untuk senyum Keluarga.
+          </p>
+        </div>
+        <div class="model"></div>
+      </div>
+  </div>
+  
+  <!--   Alert About -->
+  
+  
+  <!--=============== MAIN JS ===============-->
+  <script src="assets/js/main.js"></script>
+  <script src="assets/js/main1.js"></script>
+  <script src="assets/js/srcIndex.js"></script>
+  <script src="assets/js/app.js"></script>
+  
+</body>
+
+</html>
