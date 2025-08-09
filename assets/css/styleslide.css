@@ -350,6 +350,7 @@
 .banner .slider0 .item{
     position: absolute;
     inset: 0 0 0 0;
+    box-shadow:  0 5px 10px #000;
     transform: 
         rotateY(calc( (var(--position) - 1) * (360 / var(--quantity)) * 1deg))
         translateZ(550px);
@@ -432,7 +433,7 @@
         left: calc(50% - 50px);
     }
     .banner .slider0 .item{
-        box-shadow:  0 5px 10px #000;;
+        box-shadow:  0 5px 10px #000;
         transform: 
             rotateY(calc( (var(--position) - 1) * (360 / var(--quantity)) * 1deg))
             translateZ(180px);
