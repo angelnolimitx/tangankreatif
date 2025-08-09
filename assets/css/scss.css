@@ -1,0 +1,161 @@
+.header__toggle {
+    border: none;
+    outline: none;
+    background: none;
+    cursor: pointer;
+    position: relative;
+    z-index: 0;
+    border-radius: 10px;
+}
+
+.header__toggle:before {
+    content: '';
+    background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
+    position: absolute;
+    top: -2px;
+    left:-2px;
+    background-size: 400%;
+    z-index: -1;
+    filter: blur(5px);
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    animation: glowing 20s linear infinite;
+    opacity: 0;
+    transition: opacity .3s ease-in-out;
+    border-radius: 10px;
+    animation-play-state: running;
+}
+
+ .header__toggle:hover:before {
+    opacity: 1;
+} 
+  .list_menu{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    justify-content: center;
+} 
+  .film1{
+    justify-content: center;
+    width: 80%;
+    height: auto;
+} 
+
+      /* ADMIN */
+  .ketvid-button{
+    position: relative;
+    top: 20px;
+  }
+  .ketvid{
+    margin-top: 15px;
+}
+  .vid-add{
+    width: 90%;
+}
+  .title-vid{
+    width: 90%;
+}
+  .rilis-vid{
+    width: 90%;
+}
+  .genre-vid{
+    width: 90%;
+}
+  .sinopsis-vid{
+    width: 90%;
+    height: 100px;
+  }
+  .button-input{
+    margin-top: 22px;
+    text-align: center;
+    border-radius: 1rem;
+    border: 1px solid grey;
+    width: rem;
+    height: 2.5rem;
+  }
+  .button-input:hover{
+    margin-top: 22px;
+    text-align: center;
+    border-radius: 1rem;
+    border: 1px solid black;
+    background-color: grey;
+    width: 5rem;
+    height: 2.5rem;
+  }
+  .ri-menu-line{
+    color: grey;
+  }
+     
+@keyframes glowing {
+    0% { background-position: 0 0; }
+    25% { background-position: 200% 0; }
+    50% { background-position: 400% 0; }
+    75% { background-position: 200% 0; }
+    100% { background-position: 0 0; }
+}
+/*     Beranda */
+.menu-list-container{
+  display: flex;
+  flex-wrap: wrap;
+  margin: 5%;
+  justify-content: center;
+}
+.menu-list-img{
+  width: 150px;
+  height: auto;
+  margin: 3%;
+  border: 4px solid grey;
+  background-color: grey;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.khusus-img {
+  width: 150px;
+  height: auto;
+}
+.button-view {
+  background-color: #493a3a;
+  border-radius: 1rem;
+  text-align: center;
+  border: 1px solid black;
+  width: 80px;
+  height: 40px;
+  margin: 5px;
+  font-weight: bold;
+} 
+.button-view:hover{
+  background-color: black;
+  width: 85px;
+}
+
+/* TENTANG */ 
+.con-tentang{
+  margin: 0;
+  padding: 0;
+}
+.main-tentang{
+  display: absolute;
+  width: 90%;
+  padding: 30px;
+}
+.judul{
+  display: flex;
+}
+.titik-tentang{
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.map-0{
+  margin: 10px;
+}
+
+/* SUMBANG */
+.sumbang{
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  margin-left: 100px;
+}
