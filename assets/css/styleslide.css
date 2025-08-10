@@ -395,7 +395,7 @@
     background-position: top center;
     z-index: 1;
 }
-@media screen and (max-width: 1023px) {
+/* @media screen and (max-width: 1023px) {
     .banner{
       height: 70vh;
       font-size: 10px;
@@ -421,7 +421,7 @@
         text-align: center;
         padding: 0 30px;
     }
-} 
+}  */
 @media screen and (max-width: 678px) {
     .banner{
       height: 70vh;
