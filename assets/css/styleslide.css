@@ -424,7 +424,7 @@
 }  */
 @media screen and (max-width: 678px) {
     .banner{
-      height: 500vh;
+      height: 70vh;
       font-size: 10px;
     }
     .banner .slider0{
