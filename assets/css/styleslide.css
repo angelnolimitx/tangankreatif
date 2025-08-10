@@ -397,7 +397,7 @@
 }
 @media screen and (max-width: 1023px) {
     .banner{
-      height: 100vh;
+      height: 500vh;
       font-size: 10px;
     }
     .banner .slider0{
@@ -424,7 +424,7 @@
 } 
 @media screen and (max-width: 767px) {
     .banner{
-      height: 100vh;
+      height: 10000vh;
       font-size: 10px;
     }
     .banner .slider0{
