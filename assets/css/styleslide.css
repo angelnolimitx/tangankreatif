@@ -145,9 +145,15 @@
   inset: auto 10px 10px 10px;
 }
 @media screen and (max-width: 678px) {
+  .judul-index h2 {
+    width: 50%;
+  }
+  .judul-index0 h2 {
+    width: 50%;
+  }
   .slider {
-    margin-left: 2.5%;
-    width: 95%;
+    margin-left: 5%;
+    width: 90%;
   }
   .thumbnail {
     justify-content: start;
@@ -307,6 +313,10 @@
   inset: auto 10px 10px 10px;
 }
 @media screen and (max-width: 678px) {
+  .slider {
+    margin-left: 5%;
+    width: 90%;
+  }
   .slider {
     margin-left: 2.5%;
     width: 95%;
