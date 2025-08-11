@@ -155,11 +155,11 @@
     font-size: 25px
   }
   .judul-index0 h2 {
-    width: 50%;
+    width: 100%;
   }
   .slider {
     margin-left: 5%;
-    width: 90%;
+    width: 100%;
   }
   .thumbnail {
     justify-content: start;
