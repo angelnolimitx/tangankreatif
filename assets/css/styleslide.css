@@ -327,7 +327,7 @@
 .banner{
     display: flex;
     width: 90%;
-    height: 1300vh;
+    height: 1300px;
     text-align: center;
     overflow: hidden;
     position: relative;
@@ -339,7 +339,7 @@
     position: absolute;
     width: 200px;
     height: 250px;
-    top: 0;
+    top: 8%;
     left: calc(50% - 100px);
     transform-style: preserve-3d;
     transform: perspective(1000px);
