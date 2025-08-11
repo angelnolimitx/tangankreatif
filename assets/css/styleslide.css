@@ -148,6 +148,12 @@
   .judul-index h2 {
     width: 50%;
   }
+  .judul-index h2 a{
+    font-size: 10px
+  }
+  .judul-index0 h2 a{
+    font-size: 10px
+  }
   .judul-index0 h2 {
     width: 50%;
   }
