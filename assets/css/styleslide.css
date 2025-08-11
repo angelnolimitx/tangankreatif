@@ -148,10 +148,10 @@
   .judul-index h2 {
     width: 50%;
   }
-  .judul-index h2 a{
+  .judul-index a h2{
     font-size: 10px
   }
-  .judul-index0 h2 a{
+  .judul-index0 a h2{
     font-size: 10px
   }
   .judul-index0 h2 {
@@ -319,13 +319,9 @@
   inset: auto 10px 10px 10px;
 }
 @media screen and (max-width: 678px) {
-  .slider {
+  .slider1 {
     margin-left: 5%;
     width: 90%;
-  }
-  .slider {
-    margin-left: 2.5%;
-    width: 95%;
   }
   .thumbnail1 {
     justify-content: start;
