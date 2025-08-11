@@ -100,33 +100,43 @@ body.dark-theme {
   text-decoration: underline;
 }
 
-.judul-index{
+.judul-index {
   margin-top: 10px;
 }
-.judul-index h2{
+.judul-index h2 {
   margin-left: 5%;
+  width: 30%;
+  border: 1px solid black;
+  border-radius: 1rem;
   font-size: 30px;
+  text-align: center;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
 }
-.judul-index a{
+.judul-index a {
   color: var(--text-color);
 }
 
-.judul-index a:hover{
-  color: brown;
+.judul-index h2:hover {
+  background-color: brown;
 }
 
-.judul-index0{
+.judul-index0 {
   margin-top: 50px;
 }
-.judul-index0 h2{
+.judul-index0 h2 {
   margin-left: 5%;
+  width: 30%;
+  border: 1px solid black;
+  border-radius: 1rem;
   font-size: 30px;
+  text-align: center;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
 }
-.judul-index0 a{
+.judul-index0 a {
   color: var(--text-color);
 }
-.judul-index0 a:hover{
-  color: brown;
+.judul-index0 h2:hover {
+  background-color: brown;
 }
 /*=============== HEADER ===============*/
 .header {
