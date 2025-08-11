@@ -103,23 +103,26 @@ body.dark-theme {
 .judul-index{
   margin-top: 10px;
 }
-.judul-index h2 {
+.judul-index h2{
   margin-left: 5%;
   font-size: 30px;
+}
+.judul-index a{
+  color: var(--text-color);
+}
+.judul-index a:hover{
+  color: brown;
 }
 
-.judul-index h2:hover {
-  color: brown;
-}
-.judul-index0 {
+.judul-index0{
   margin-top: 50px;
 }
-.judul-index0 h2 {
-  margin-left: 5%;
-  font-size: 30px;
+.judul-index0 a{
+  color: var(--text-color);
 }
-.judul-index0 h2:hover {
+.judul-index0 a:hover{
   color: brown;
+}
 /*=============== HEADER ===============*/
 .header {
   position: fixed;
