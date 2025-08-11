@@ -110,12 +110,17 @@ body.dark-theme {
 .judul-index a{
   color: var(--text-color);
 }
+
 .judul-index a:hover{
   color: brown;
 }
 
 .judul-index0{
   margin-top: 50px;
+}
+.judul-index0 h2{
+  margin-left: 5%;
+  font-size: 30px;
 }
 .judul-index0 a{
   color: var(--text-color);
