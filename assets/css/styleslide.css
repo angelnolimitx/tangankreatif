@@ -146,7 +146,7 @@
 }
 @media screen and (max-width: 678px) {
   .judul-index h2 {
-    width: 100%;
+    width: 90%;
   }
   .judul-index a h2{
     font-size: 25px
@@ -155,7 +155,7 @@
     font-size: 25px
   }
   .judul-index0 h2 {
-    width: 100%;
+    width: 90%;
   }
   .slider {
     margin-left: 5%;
