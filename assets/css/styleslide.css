@@ -145,6 +145,9 @@
   inset: auto 10px 10px 10px;
 }
 @media screen and (max-width: 678px) {
+  .slider {
+  width: 90%;
+  }
   .thumbnail {
     justify-content: start;
   }
@@ -303,6 +306,9 @@
   inset: auto 10px 10px 10px;
 }
 @media screen and (max-width: 678px) {
+  .slider {
+  width: 90%;
+  }
   .thumbnail1 {
     justify-content: start;
   }
