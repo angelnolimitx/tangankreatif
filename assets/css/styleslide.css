@@ -356,7 +356,7 @@
   position: absolute;
   width: 200px;
   height: 250px;
-  top: 8%;
+  top: 10%;
   left: calc(50% - 100px);
   transform-style: preserve-3d;
   transform: perspective(1000px);
