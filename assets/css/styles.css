@@ -192,7 +192,6 @@ body.dark-theme {
   position: relative;
   font-size: 28px;
   color: white;
-  -webkit-text-stroke: 0.3vw grey;
   border-left: 2px solid grey;
   animation: animate1 10s linear infinite;
   text-shadow: 0 5px 10px;
@@ -206,7 +205,6 @@ body.dark-theme {
   width: 0;
   height: 100%;
   color: #ba0606;
-  -webkit-text-stroke: 0vw grey;
   border-right: 2px solid #ba0606;
   overflow: hidden;
   animation: animate 10s linear infinite;
