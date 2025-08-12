@@ -139,7 +139,7 @@
 .main-tentang{
   display: absolute;
   width: 90%;
-  padding: 5%;
+  margin-left: 5%;
 }
 .judul{
   display: flex;
