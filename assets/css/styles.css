@@ -3,7 +3,7 @@
 
 /*=============== VARIABLES CSS ===============*/
 :root {
-  --header-height: 3.5rem;
+  --header-height: 4rem;
 
   /*========== Colors ==========*/
   /*Color mode HSL(hue, saturation, lightness)*/
@@ -185,6 +185,7 @@ body.dark-theme {
 }
 .container-span-title{
   display: flex;
+  width: 100%;
   overflow: hidden;
 }
 .head-span{
