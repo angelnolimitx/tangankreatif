@@ -143,6 +143,7 @@
 }
 .judul{
   display: flex;
+  font-size: 5%;
 }
 .titik-tentang{
   margin-left: 5px;
