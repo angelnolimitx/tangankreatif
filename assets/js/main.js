@@ -79,39 +79,3 @@ themeButton.addEventListener("click", () => {
 
 // HEADER TOGGLE ANIMATION
 
-// SEARCH
-const toggleSearch = () => {
-    const searchForm = document.querySelector(".search-form");
-    const searchButton = document.querySelector(".search-button");
-    const searchInput = document.querySelector(".search-input");
-
-    searchButton.addEventListener("click", () => {
-        searchForm.classList.toggle("active-search");
-    });
-
-    searchInput.addEventListener("keydown", e => {
-        if (e.key === "Enter") {
-            e.preventDefault();
-            searchInput.value = "";
-            searchForm.classList.remove("active-search");
-        }
-    });
-};
-
-toggleSearch();
-
-// TENTANG
-const btView = () => {
-    const btV = document.querySelectorAll(".button-view");
-    const tentang = document.getElementById("alertCon");
-    btV.forEach(item => {
-        item.addEventListener("click", () => {
-            tentang.style.display = "block";
-        });
-    });
-    const closTentang = document.getElementById("buttonAl");
-    closTentang.addEventListener("click", cl => {
-        tentang.style.display = "none";
-    });
-};
-btView();
