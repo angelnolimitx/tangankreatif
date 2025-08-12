@@ -161,9 +161,19 @@
   text-decoration: underline;
 }
 /* SUMBANG */
+.main-sumbang{
+  width: 80%;
+  margin-left: 10%;
+}
+.main-sumbang p{
+  margin-top: 5%;
+  font-size: 100%;
+}
 .sumbang{
-  justify-content: center;
-  align-items: center;
-  margin-top: 20px;
-  margin-left: 100px;
+  width: 100%;
+  margin-top: 5%;
+  place-items: center;
+}
+.sumbang img{
+  width: 50%;
 }
