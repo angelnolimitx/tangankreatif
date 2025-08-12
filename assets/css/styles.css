@@ -227,6 +227,9 @@ body.dark-theme {
   } 
 }
 
+.tentang-moto h2{
+  text-decoration: underline;
+}
 /*=============== SIDEBAR ===============*/
 .sidebar {
   position: fixed;
