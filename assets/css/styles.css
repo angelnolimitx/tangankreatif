@@ -183,7 +183,10 @@ body.dark-theme {
   color: var(--title-color);
   cursor: pointer;
 }
-
+.container-span-title{
+  display: flex;
+  overflow: hidden;
+}
 .head-span{
   position: relative;
   font-size: 28px;
