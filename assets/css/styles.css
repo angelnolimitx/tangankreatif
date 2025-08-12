@@ -184,6 +184,46 @@ body.dark-theme {
   cursor: pointer;
 }
 
+.head-span{
+  position: relative;
+  font-size: 30px;
+  color: white;
+  -webkit-text-stroke: 0.3vw grey;
+  border-left: 2px solid grey;
+  animation: animate1 15s linear infinite;
+}
+.head-span:before{
+  content:attr(data-text);
+  position: absolute;
+  font-size: 30px;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  color: #ba0606;
+  -webkit-text-stroke: 0vw grey;
+  border-right: 2px solid #ba0606;
+  overflow: hidden;
+  animation: animate 15s linear infinite;
+}
+
+@keyframes animate{ 
+  0%,10%,100%{
+    width: 0;
+  } 
+  70%,90%{
+    width: 100%;
+  }
+}
+@keyframes animate1{ 
+  0%,10%,100%{
+    left: 100%;
+  }
+  70%,90%{
+    left: 0;
+  } 
+}
+
 /*=============== SIDEBAR ===============*/
 .sidebar {
   position: fixed;
