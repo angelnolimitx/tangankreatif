@@ -194,7 +194,7 @@ body.dark-theme {
   color: white;
   border-left: 2px solid grey;
   animation: animate1 10s linear infinite;
-  text-shadow: 0 5px 10px;
+  text-shadow: 0 0 3px;
 }
 .head-span:before{
   content:attr(data-text);
