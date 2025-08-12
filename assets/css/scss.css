@@ -143,7 +143,7 @@
 }
 .judul{
   display: flex;
-  font-size: 5%;
+  font-size: 100%;
 }
 .titik-tentang{
   margin-left: 5px;
@@ -152,8 +152,13 @@
 .map-0{
   margin: 10px;
 }
-.isi-tentang{
-  font-size: 5%;
+.tentang-kami{
+  font-size: 100%;
+}
+
+.tentang-motto h2{
+  font-size: 100%;
+  text-decoration: underline;
 }
 /* SUMBANG */
 .sumbang{
