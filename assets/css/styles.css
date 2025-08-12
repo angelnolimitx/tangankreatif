@@ -107,6 +107,7 @@ body.dark-theme {
   margin-left: 5%;
   width: 30%;
   border: 1px solid white;
+  
   border-radius: 1rem;
   font-size: 30px;
   text-align: center;
@@ -127,6 +128,7 @@ body.dark-theme {
   margin-left: 5%;
   width: 30%;
   border: 1px solid white;
+  background-color: white;
   border-radius: 1rem;
   font-size: 30px;
   text-align: center;
