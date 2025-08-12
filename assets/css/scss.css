@@ -151,7 +151,9 @@
 .map-0{
   margin: 10px;
 }
-
+.isi-tentang{
+  font-size: 5%;
+}
 /* SUMBANG */
 .sumbang{
   justify-content: center;
