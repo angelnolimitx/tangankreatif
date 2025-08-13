@@ -194,7 +194,7 @@ body.dark-theme {
 }
 .head-span{
   position: relative;
-  font-size: 28px;
+  font-size: 27px;
   color: white;
   border-left: 2px solid grey;
   animation: animate1 10s linear infinite;
@@ -203,7 +203,7 @@ body.dark-theme {
 .head-span:before{
   content:attr(data-text);
   position: absolute;
-  font-size: 28px;
+  font-size: 27px;
   top: 0;
   left: 0;
   width: 0;
