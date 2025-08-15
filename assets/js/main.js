@@ -77,5 +77,22 @@ themeButton.addEventListener("click", () => {
     localStorage.setItem("selected-icon", getCurrentIcon());
 });
 
-// HEADER TOGGLE ANIMATION
+/*=============== GALERI ===============*/
+const galeri = () => {
+  const img = document.querySelectorAll(".gallery-img");
+  const over = document.getElementById("overlay");
+  const fotoBesar = document.getElementById("fotoBesar");
+  const tutupImg = document.getElementById("tutupImg");
 
+  img.forEach((img) => {
+    img.addEventListener("click", () => {
+      over.style.display = "block";
+      fotoBesar.src = img.src;
+    });
+  });
+
+  tutupImg.addEventListener("click", () => {
+    over.style.display = "none";
+  });
+};
+galeri();
