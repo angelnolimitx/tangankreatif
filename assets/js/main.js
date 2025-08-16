@@ -78,21 +78,34 @@ themeButton.addEventListener("click", () => {
 });
 
 /*=============== GALERI ===============*/
-const galeri = () => {
-  const img = document.querySelectorAll(".gallery-img");
-  const over = document.getElementById("overlay");
-  const fotoBesar = document.getElementById("fotoBesar");
-  const tutupImg = document.getElementById("tutupImg");
-
-  img.forEach((img) => {
-    img.addEventListener("click", () => {
-      over.style.display = "block";
-      fotoBesar.src = img.src;
+// FOLDER
+const folderToFotos = () => {
+    const folders = document.querySelectorAll(".folder-card");
+    const displayFoto = document.getElementById("conGaleriFoto");
+    const displayFolder = document.getElementById("conGaleriFolder");
+    folder.forEach(folder => {
+        folder.addEventListener("click", open => {
+            displayFolder.style.display = "none";
+            displayFoto.style.display = "block";
+        });
     });
-  });
-
-  tutupImg.addEventListener("click", () => {
-    over.style.display = "none";
-  });
 };
-galeri();
+folderToFotos();
+// FOTO
+const fotoZoom = () => {
+    const img = document.querySelectorAll(".gallery-img");
+    const over = document.getElementById("overlay");
+    const fotoBesar = document.getElementById("fotoBesar");
+    const tutupImg = document.getElementById("tutupImg");
+
+    img.forEach(img => {
+        img.addEventListener("click", () => {
+            over.style.display = "block";
+            fotoBesar.src = img.src;
+        });
+    });
+    tutupImg.addEventListener("click", () => {
+        over.style.display = "none";
+    });
+};
+fotoZoom();
