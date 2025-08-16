@@ -31,6 +31,12 @@
   /*========== z index ==========*/
   --z-tooltip: 10;
   --z-fixed: 100;
+  /* === Warna dasar === */
+  --card: #1a1c24;
+  --text: #f5f6fa;
+  --muted: #9aa3b5;
+  --accent: #7cc2ff;
+  --radius: 16px;
 }
 
 /*========== Responsive typography ==========*/
@@ -1189,7 +1195,7 @@ body.dark-theme {
 }
 /* === Foto === */
 .con-galeri-foto {
-    display: none;
+    display: block;
 }
 .gallery {
     display: grid;
