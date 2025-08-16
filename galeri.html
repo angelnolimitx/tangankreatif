@@ -134,44 +134,124 @@
     <h1>Galeri</h1>
     <h2></h2>
   </main>
-  <!-- slider -->
-  <div class="cont-tentang">
-    <div class="main-tentang">
-          <h1 class="mainh1">Galeri Foto</h1>
+        <div class="cont-tentang">
+            <div class="main-tentang">
+                <div class="con-galeri-folder" id="conGaleriFolder">
+                    <h1 class="mainh1">Folder Foto</h1>
+                    <div class="folder">
+                        <div class="grid">
+                            <!-- Folder 1 -->
+                            <article class="folder-card">
+                                <a class="folder-link" href="#liburan"></a>
+                                <div class="photo-stack">
+                                    <figure class="photo">
+                                        <img src="img/bali1.jpg" alt="" />
+                                    </figure>
+                                    <figure class="photo">
+                                        <img src="img/bali2.jpg" alt="" />
+                                    </figure>
+                                    <figure class="photo">
+                                        <img src="img/bali3.jpg" alt="" />
+                                    </figure>
+                                </div>
+                                <div class="meta">
+                                    <div class="name">Rumah Kayu</div>
+                                </div>
+                            </article>
 
-    <div class="gallery">
-      <img
-        src="https://picsum.photos/id/1015/300/200"
-        alt="Foto 1"
-        class="gallery-img"
-      />
-      <img
-        src="https://picsum.photos/id/1016/300/200"
-        alt="Foto 2"
-        class="gallery-img"
-      />
-      <img
-        src="https://picsum.photos/id/1025/300/200"
-        alt="Foto 3"
-        class="gallery-img"
-      />
-      <img
-        src="https://picsum.photos/id/1029/300/200"
-        alt="Foto 4"
-        class="gallery-img"
-      />
-    </div>
+                            <!-- Folder 2 -->
+                            <article class="folder-card">
+                                <a class="folder-link" href="#keluarga"></a>
+                                <div class="photo-stack">
+                                    <figure class="photo">
+                                        <img src="img/keluarga1" alt="" />
+                                    </figure>
+                                    <figure class="photo">
+                                        <img src="img/keluarga2.jpg" alt="" />
+                                    </figure>
+                                    <figure class="photo">
+                                        <img src="img/keluarga3.jpg" alt="" />
+                                    </figure>
+                                </div>
+                                <div class="meta">
+                                    <div class="name">Lumbung</div>
+                                </div>
+                            </article>
 
-    <!-- Overlay untuk foto yang diperbesar -->
-    <div id="overlay" class="overlay">
-      <span class="tutup" id="tutupImg">&times;</span>
-      <img id="fotoBesar" class="foto-besar" src="" alt="" />
-    </div>
-    </div>
-  </div>
-  <!--   Alert About -->
-  
-  
+                            <!-- Folder 3 -->
+                            <article class="folder-card">
+                                <a class="folder-link" href="#keluarga"></a>
+                                <div class="photo-stack">
+                                    <figure class="photo">
+                                        <img src="img/keluarga1" alt="" />
+                                    </figure>
+                                    <figure class="photo">
+                                        <img src="img/keluarga2.jpg" alt="" />
+                                    </figure>
+                                    <figure class="photo">
+                                        <img src="img/keluarga3.jpg" alt="" />
+                                    </figure>
+                                </div>
+                                <div class="meta">
+                                    <div class="name">Gazebo</div>
+                                </div>
+                            </article>
+
+                            <!-- Folder 4 -->
+                            <article class="folder-card">
+                                <a class="folder-link" href="#keluarga"></a>
+                                <div class="photo-stack">
+                                    <figure class="photo">
+                                        <img src="img/keluarga1" alt="" />
+                                    </figure>
+                                    <figure class="photo">
+                                        <img src="img/keluarga2.jpg" alt="" />
+                                    </figure>
+                                    <figure class="photo">
+                                        <img src="img/keluarga3.jpg" alt="" />
+                                    </figure>
+                                </div>
+                                <div class="meta">
+                                    <div class="name">Properti</div>
+                                </div>
+                            </article>
+                        </div>
+                    </div>
+                </div>
+                <div class="con-galeri-foto" id="conGaleriFoto">
+                    <h1 class="mainh1">Koleksi Foto</h1>
+
+                    <div class="gallery">
+                        <img
+                            src="https://picsum.photos/id/1015/300/200"
+                            alt="Foto 1"
+                            class="gallery-img"
+                        />
+                        <img
+                            src="https://picsum.photos/id/1016/300/200"
+                            alt="Foto 2"
+                            class="gallery-img"
+                        />
+                        <img
+                            src="https://picsum.photos/id/1025/300/200"
+                            alt="Foto 3"
+                            class="gallery-img"
+                        />
+                        <img
+                            src="https://picsum.photos/id/1029/300/200"
+                            alt="Foto 4"
+                            class="gallery-img"
+                        />
+                    </div>
+
+                    <!-- Overlay untuk foto yang diperbesar -->
+                    <div id="overlay" class="overlay">
+                        <span class="tutup" id="tutupImg">&times;</span>
+                        <img id="fotoBesar" class="foto-besar" src="" alt="" />
+                    </div>
+                </div>
+            </div>
+        </div>
   <!--=============== MAIN JS ===============-->
   <script src="assets/js/main.js"></script>
   <script src="assets/js/main1.js"></script>
