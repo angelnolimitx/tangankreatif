@@ -83,7 +83,7 @@ const folderToFotos = () => {
     const folders = document.querySelectorAll(".folder-card");
     const displayFoto = document.getElementById("conGaleriFoto");
     const displayFolder = document.getElementById("conGaleriFolder");
-    folders.forEach(folders => {
+    folders.forEach(folder => {
         folder.addEventListener("click", open => {
             displayFolder.style.display = "none";
             displayFoto.style.display = "block";
