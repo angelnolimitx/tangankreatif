@@ -1189,7 +1189,7 @@ body.dark-theme {
 }
 /* === Foto === */
 .con-galeri-foto {
-    display: block;
+    display: none;
 }
 .gallery {
     display: grid;
