@@ -1088,61 +1088,160 @@ body.dark-theme {
 
 /*=============== GALERI ===============*/
 
-.mainh1 {
-  text-align: center;
-  margin-top: 20px;
+/* === Folder === */
+.con-galeri-folder {
+    display: block;
+}
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
+/* Card Folder */
+.folder-card {
+    position: relative;
+    border-radius: var(--radius);
+    padding: 10px;
+    margin: 5px;
+    background: none;
+    transition:
+        transform 0.25s ease,
+        box-shadow 0.25s ease;
+    overflow: hidden;
+}
+.folder-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.35);
+}
+
+.folder-link {
+    position: absolute;
+    inset: 0;
+    z-index: 5;
+    border-radius: inherit;
+}
+
+/* Tumpukan Foto */
+.photo-stack {
+    position: relative;
+    width: 150px;
+    aspect-ratio: 4/3;
+    border-radius: calc(var(--radius) - 4px);
+}
+.photo {
+    position: absolute;
+    inset: 0;
+    border-radius: 12px;
+    border: 6px solid #fff;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+    transition: transform 0.35s ease;
+    overflow: hidden;
+}
+.photo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+/* posisi acak tumpukan */
+.photo:nth-child(1) {
+    transform: rotate(-7deg) translateY(6px);
+    z-index: 1;
+}
+.photo:nth-child(2) {
+    transform: rotate(5deg);
+    z-index: 2;
+}
+.photo:nth-child(3) {
+    transform: rotate(-2deg) translateY(-6px);
+    z-index: 3;
+}
+
+/* efek hover */
+.folder-card:hover .photo:nth-child(1) {
+    transform: rotate(-10deg) translate(0, 10px) scale(1.02);
+}
+.folder-card:hover .photo:nth-child(2) {
+    transform: rotate(7deg) translate(0, 2px) scale(1.03);
+}
+.folder-card:hover .photo:nth-child(3) {
+    transform: rotate(0deg) translate(0, -4px) scale(1.04);
+}
+
+/* === Caption === */
+.meta {
+    margin-top: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.name {
+    font-weight: 600;
+    font-size: 0.95rem;
+}
+
+.mainh1 {
+    font-size: 25px;
+    text-align: center;
+    margin-top: 5%;
+}
+/* === Foto === */
+.con-galeri-foto {
+    display: block;
+}
 .gallery {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-  gap: 10px;
-  padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 10px;
+    padding: 20px;
 }
 
 .gallery img {
-  width: 100%;
-  cursor: pointer;
-  border-radius: 5px;
-  transition: transform 0.3s ease;
+    width: 100%;
+    cursor: pointer;
+    border-radius: 5px;
+    object-fit: cover;
+    transition: transform 0.3s ease;
 }
 
 .gallery img:hover {
-  transform: scale(1.05);
+    transform: scale(1.05);
 }
 
 .overlay {
-  display: none; /* sembunyikan default */
-  position: fixed;
-  z-index: 999;
-  padding-top: 5%;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  overflow: auto;
-  background-color: rgba(0, 0, 0, 0.9);
+    display: none;
+    position: fixed;
+    z-index: 999;
+    padding-top: 5%;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.9);
 }
 
 .foto-besar {
-  display: block;
-  margin: auto;
-  max-width: 90%;
-  max-height: 80vh;
-  border-radius: 5px;
+    display: block;
+    margin: auto;
+    max-width: 90%;
+    max-height: 80vh;
+    border-radius: 5px;
 }
 
 .tutup {
-  position: absolute;
-  top: 15px;
-  right: 35px;
-  color: white;
-  font-size: 40px;
-  font-weight: bold;
-  cursor: pointer;
-  transition: 0.3s;
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
 }
 
 .tutup:hover {
-  color: red;
+    color: red;
 }
