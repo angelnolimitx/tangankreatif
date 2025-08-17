@@ -79,18 +79,50 @@ themeButton.addEventListener("click", () => {
 
 /*=============== GALERI ===============*/
 // FOLDER
-const folderToFotos = () => {
-    const folders = document.querySelectorAll(".folder-card");
-    const displayFoto = document.getElementById("conGaleriFoto");
+// RUMAH
+const folderToFotoRumah = () => {
+    const folderRumah = document.getElementById("folderRumah");
+    const displayFoto = document.getElementById("conGaleriFotoRumah");
     const displayFolder = document.getElementById("conGaleriFolder");
-    folders.forEach(folder => {
-        folder.addEventListener("click", open => {
-            displayFolder.style.display = "none";
-            displayFoto.style.display = "block";
-        });
+    folderRumah.addEventListener("click", open => {
+        displayFolder.style.display = "none";
+        displayFoto.style.display = "block";
     });
 };
-folderToFotos();
+folderToFotoRumah();
+// LUMBUNG
+const folderToFotoLumbung = () => {
+    const folderRumah = document.getElementById("folderLumbung");
+    const displayFoto = document.getElementById("conGaleriFotoLumbung");
+    const displayFolder = document.getElementById("conGaleriFolder");
+    folderRumah.addEventListener("click", open => {
+        displayFolder.style.display = "none";
+        displayFoto.style.display = "block";
+    });
+};
+folderToFotoLumbung();
+// GAZEBO
+const folderToFotoGazebo = () => {
+    const folderRumah = document.getElementById("folderGazebo");
+    const displayFoto = document.getElementById("conGaleriFotoGazebo");
+    const displayFolder = document.getElementById("conGaleriFolder");
+    folderRumah.addEventListener("click", open => {
+        displayFolder.style.display = "none";
+        displayFoto.style.display = "block";
+    });
+};
+folderToFotoGazebo();
+// PROPERTI
+const folderToFotoProperti = () => {
+    const folderRumah = document.getElementById("folderProperti");
+    const displayFoto = document.getElementById("conGaleriFotoProperti");
+    const displayFolder = document.getElementById("conGaleriFolder");
+    folderRumah.addEventListener("click", open => {
+        displayFolder.style.display = "none";
+        displayFoto.style.display = "block";
+    });
+};
+folderToFotoProperti();
 // FOTO
 const fotoZoom = () => {
     const img = document.querySelectorAll(".gallery-img");
